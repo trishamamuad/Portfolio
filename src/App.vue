@@ -129,7 +129,7 @@ function toggleCV() {
     <!-- NAVIGATION -->
     <header class="navbar">
       <a class="logo" href="#home" @click="closeMenu">
-        TM<span>.</span>
+        Trisha<span>.</span>
       </a>
 
       <button
@@ -514,7 +514,7 @@ function toggleCV() {
 
     <!-- FOOTER -->
     <footer class="footer">
-      <a class="logo footer-logo" href="#home">TM<span>.</span></a>
+      <a class="logo footer-logo" href="#home">Trisha<span>.</span></a>
 
       <p>Designed and built by Trisha Mae B. Mamuad.</p>
 
