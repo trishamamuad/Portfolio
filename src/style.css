@@ -34,7 +34,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 85px;
+  scroll-padding-top: 90px;
 }
 
 body {
@@ -86,12 +86,17 @@ a:focus-visible {
 
 .portfolio {
   min-height: 100vh;
-  overflow: hidden;
+  overflow: clip;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
 }
 
 .section {
   padding: 82px 7%;
-  scroll-margin-top: 75px;
+  scroll-margin-top: 90px;
 }
 
 .section-alt {
@@ -106,7 +111,7 @@ a:focus-visible {
   position: sticky;
   top: 0;
   z-index: 1000;
-  min-height: 70px;
+  width: 100%;
   padding: 12px 7%;
   display: flex;
   align-items: center;
@@ -115,6 +120,12 @@ a:focus-visible {
   background: rgba(4, 19, 35, 0.96);
   border-bottom: 1px solid var(--border);
   backdrop-filter: blur(14px);
+  animation: slideDown 0.8s ease;
+}
+
+.section {
+  padding: 100px 8%;
+  scroll-margin-top: 90px;
 }
 
 .logo {
@@ -124,6 +135,14 @@ a:focus-visible {
   font-size: 28px;
   font-weight: 700;
   letter-spacing: -1.5px;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
 }
 
 .logo span {
