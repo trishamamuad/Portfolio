@@ -128,8 +128,8 @@ function toggleCV() {
   <div class="portfolio">
     <!-- NAVIGATION -->
     <header class="navbar">
-      <a class="logo" href="#home" @click="closeMenu">
-        Trisha<span>.</span>
+      <a class="logo" href="#home">
+        <img src="/images/logo.jpg">
       </a>
 
       <button
@@ -204,7 +204,7 @@ function toggleCV() {
 
               <div v-if="cvOpen" class="cv-dropdown-menu">
                 <a
-                  href="/CV/MAMUAD_CV.png"
+                  href="/TRISHA_MAMUAD_CV.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   @click="cvOpen = false"
@@ -213,8 +213,8 @@ function toggleCV() {
                 </a>
 
                 <a
-                  href="/CV/MAMUAD_CV.png"
-                  download="MAMUAD_CV.png"
+                  href="/TRISHA_MAMUAD_CV.pdf"
+                  download="TRISHA_MAE_B_MAMUAD_CV.pdf"
                   @click="cvOpen = false"
                 >
                   ↓ Download CV
@@ -298,16 +298,21 @@ function toggleCV() {
             <h3>Curious mind. <span>Practical solutions.</span></h3>
 
             <p>
-              I am a motivated Computer Engineering student interested in
-              system development, programming, networking, and emerging
-              technologies. I enjoy applying my technical knowledge and
-              problem-solving skills to build practical, reliable solutions.
+              I am a Computer Engineering student at Cagayan State University
+              - Carig Campus. I am interested in technology and how hardware
+              and software work together to solve real-world problems.
             </p>
 
             <p>
-              I seek hands-on experience to build my skills and contribute to
-              real-world projects. I am adaptable, detail-oriented, eager to
-              learn, and able to work independently or as part of a team.
+              I explore programming, web development, networking, and
+              embedded systems through academic activities and hands-on
+              projects.
+            </p>
+
+            <p>
+              My goal is to become a professional engineer, continue improving
+              my technical skills, and contribute to projects that provide
+              practical and reliable solutions.
             </p>
 
             <div class="about-highlights">
